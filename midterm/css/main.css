@@ -1,0 +1,125 @@
+/* 
+This is a CSS comment
+Shorcut for adding the comment is command/ctrl + / 
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #aad4cf;
+}
+
+header h1 {
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+
+header img {
+    width: 1000px;
+    height: 350px;
+    padding-left: 0%;
+    padding-top: 0%;
+}
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    width: 49%;
+    padding: 5em;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+    padding: 11px;
+}
+
+section ul li {
+    font-size: 18px;
+}
+
+h2,
+h3 {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+h4 {
+    font-size: 30px;
+    margin-top: 0%;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.container1 label {
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    padding: 20px;
+}
+
+.container1 input {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+}
+
+input {
+    width: 100%;
+}
+
+form {
+    background-color: #D4E9E7;
+    width: 900px;
+    height: 500px;
+    border: 4px solid black;
+    padding: 20px;
+    margin: 20px;
+    font-size: larger;
+}
+
+.container {
+    /* create a container containing everything inside the body tag */
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #D4E9E7;
+}
