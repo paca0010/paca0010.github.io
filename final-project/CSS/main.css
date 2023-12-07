@@ -1,0 +1,174 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header,
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/***************
+mobile
+*******************/
+
+    .main-head {
+        margin: 0 auto;
+        background-color: #222;
+    }
+
+    .nav-list {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .nav-list li {
+        margin: 50px;
+    }
+
+    .form {
+        text-align: center;
+        padding: 10px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    
+
+    .container h2 {
+        font-size: 3em;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        margin-left: none;
+    }
+
+    .container h3 {
+        font-size: 2em;
+        margin-top: 1em;
+        margin-left: 0.8em;
+    }
+
+    .container p {
+        font-size: 1em;
+        margin: 1.5em;
+    }
+
+    .btn {
+        text-decoration: none;
+        display: inline-block;
+        padding: 1.5em;
+        background-color: #222;
+        font-size: 1.5em;
+        color: white;
+        margin: 0.5em;
+    }
+
+    .home {
+        background-image: url(../images/main-banner.jpg);
+        width: 100%;
+        padding-right: 0.5em;
+    }
+
+    .home h1 {
+        font-size: 6em;
+        color: white;
+        padding-top: 2em;
+        padding-bottom: 0.5em;
+        padding-right: 0.3em;
+        padding-left: 0.3em;
+    }
+
+    .home p {
+        font-size: 16px;
+        color: white;
+        font-size: 1em;
+        margin-bottom: 1.5em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    .about {
+        margin: 0 auto;
+        background-color: #ffe6ac;
+    }
+
+    .about img {
+        width: 95%;
+        margin-left: 1.2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        
+
+    }
+
+    .aboutus p {
+        font-size: 1em;
+        margin: 1.5em;
+        padding-bottom: 1em;
+
+    }
+
+    .aboutus h2 {
+        font-size: 3em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 0.5em;
+    }
+
+    .digital {
+        background-color: #ffe6ac;
+        margin-bottom: 1em;
+
+    }
+
+    .digital img {
+        width: 100%;
+    }
+
+    .video {
+        background-color: #ffe6ac;
+        margin-bottom: 1em;
+    }
+
+    .web {
+        background-color: #ffe6ac;
+        margin-bottom: 1em;
+    }
+
+    .print {
+        background-color: #ffe6ac;
+        margin-bottom: 1em;
+    }
+
+    .ourvision {
+        background-image: url(../images/vision.jpg);
+        width: 100%;
+    }
+
+    .ourvison h3 {
+        color: white;
+    }
+
+    .ourvision p {
+        color: white;
+    }
+
+    .john {
+        background-color: #ffe6ac;
+        margin-bottom: 1em;
+    }
+
+    .bob {
+        background-color: #ffe6ac;
+        margin-bottom: 1em;
+    }
