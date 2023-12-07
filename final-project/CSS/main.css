@@ -76,7 +76,7 @@ mobile
     .home {
         background-image: url(../images/main-banner.jpg);
         width: 100%;
-        padding-right: 0.5em;
+        padding: 1em;
     }
 
     .home h1 {
