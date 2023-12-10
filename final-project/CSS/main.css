@@ -1,174 +1,297 @@
-/* font-family: 'Open Sans', sans-serif; */
 
+
+/* font-family: 'Open Sans', sans-serif; */
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #222;
+    margin: 0 auto;
 }
 
-header,
-main {
+/**********
+Mobile Styles
+************/
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
+}
+
+.main-head {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #222;
+}
+
+.nav-list {
+    max-width: 1200px;
+    text-align: center;
+    font-size: larger;
+}
+
+.nav-list li {
+    margin: 50px;
+}
+
+.form {
+    max-width: 1200px;
+    text-align: center;
+    padding: 10px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+form h1 {
+    font-size: 3em;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.5em;
+    background-color: #222;
+    font-size: 1.5em;
+    color: white;
+    margin: 0.5em;
+}
+
+.home {
+    max-width: 1200px;
+    background-image: url(../images/main-banner.jpg);
+    width: 100%;
+    padding: 1em;
+}
+
+.home h1 {
+    font-size: 6em;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    padding-right: 0.3em;
+}
+
+.home p {
+    font-size: 16px;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+}
+
+.digital h3,
+.marketing h3,
+.video h3,
+.web h3,
+.print h3 {
+    margin-top: 30px;
+    color: #222;
+    font-size: 2.5em;
+    margin-left: 12px;
+}
+
+.digital p,
+.marketing p,
+.video p,
+.web p,
+.print p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #222;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+
+.about {
+    background-color: #ffe6ac;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.aboutus h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #222;
+    font-size: 2.5em;
+    margin-left: 12px;
+}
+
+.aboutus p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #222;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #222;
+    font-size: 2.5em;
+    margin-left: 12px;
+    margin-bottom: 15px;
+
+}
+.digital {
+    max-width: 1200px;
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
 
 }
 
-/***************
-mobile
-*******************/
+.digital img {
+    max-width: 1200px;
+    width: 100%;
+}
 
-    .main-head {
-        margin: 0 auto;
-        background-color: #222;
-    }
+.video {
+    max-width: 1200px;
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
 
-    .nav-list {
-        text-align: center;
-        font-size: larger;
-    }
+.web {
+    max-width: 1200px;
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
 
-    .nav-list li {
-        margin: 50px;
-    }
+.print {
+    max-width: 1200px;
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+    width: 100%;
+}
 
-    .form {
-        text-align: center;
-        padding: 10px;
-    }
+.ourvision h3 {
+    font-size: 2.5em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    margin-left: 12px;
+}
 
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: bold;
-    }
+.ourvision p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 12px;
+    margin-right: 10px;
+}
 
-    
+.ourvision {
+    background-image: url(../images/vision.jpg);
+}
 
-    .container h2 {
-        font-size: 3em;
-        margin-top: 1em;
-        margin-bottom: 0.5em;
-        margin-left: none;
-    }
+.team h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #222;
+    font-size: 2.5em;
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
 
-    .container h3 {
-        font-size: 2em;
-        margin-top: 1em;
-        margin-left: 0.8em;
-    }
+.john img, .bob img {
+    max-width: 100%;
+    height: auto;
+}
 
-    .container p {
-        font-size: 1em;
-        margin: 1.5em;
-    }
+.johndoe h3, .bobrite h3{
+    margin-top: 30px;
+    color: #222;
+    font-size: 2.5em;
+    margin-left: 12px;
+}
 
-    .btn {
-        text-decoration: none;
-        display: inline-block;
-        padding: 1.5em;
-        background-color: #222;
-        font-size: 1.5em;
-        color: white;
-        margin: 0.5em;
-    }
+.johndoe h4, .bobrite h4 {
+    margin-top: 5px;
+    color: #222;
+    font-size: 20px;
+    margin-left: 12px;
+}
 
-    .home {
-        background-image: url(../images/main-banner.jpg);
-        width: 100%;
-        padding: 1em;
-    }
+.johndoe p, .bobrite p {
+    margin-top: 5px;
+    color: #222;
+    font-size: 16px;
+    margin-left: 12px;
+    padding-bottom: 1em;
+    margin-right: 10px;
+}
 
-    .home h1 {
-        font-size: 6em;
-        color: white;
-        padding-top: 2em;
-        padding-bottom: 0.5em;
-        padding-right: 0.3em;
-        padding-left: 0.3em;
-    }
+.john {
+    max-width: 1200px;
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
 
-    .home p {
-        font-size: 16px;
-        color: white;
-        font-size: 1em;
-        margin-bottom: 1.5em;
-        margin-left: 1.5em;
-        margin-right: 1.5em;
-    }
+.bob {
+    max-width: 1200px;
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+}
 
-    .about {
-        margin: 0 auto;
-        background-color: #ffe6ac;
-    }
+form label {
+    display: block;
+}
 
-    .about img {
-        width: 95%;
-        margin-left: 1.2em;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        
+form input,
+form text area {
+    width: 90%;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 15px;
+}
 
-    }
+form button {
+    padding: 2em;
+}
 
-    .aboutus p {
-        font-size: 1em;
-        margin: 1.5em;
-        padding-bottom: 1em;
+.hours h3 {
+    margin-top: 30px;
+    color: #222;
+    font-size: 2.5em;
+    margin-left: 12px;
+}
 
-    }
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
 
-    .aboutus h2 {
-        font-size: 3em;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: 0.5em;
-    }
+.hours thead {
+    background-color: #ffe6ac;
+}
 
-    .digital {
-        background-color: #ffe6ac;
-        margin-bottom: 1em;
+.hours th, td {
+    padding: 10px;
+    border: 1px solid #222;
+    text-align: left;
+}
 
-    }
+.hours tbody {
+    padding: 10px;
+    border: 1px solid #222;
+    text-align: left;
+}
 
-    .digital img {
-        width: 100%;
-    }
-
-    .video {
-        background-color: #ffe6ac;
-        margin-bottom: 1em;
-    }
-
-    .web {
-        background-color: #ffe6ac;
-        margin-bottom: 1em;
-    }
-
-    .print {
-        background-color: #ffe6ac;
-        margin-bottom: 1em;
-    }
-
-    .ourvision {
-        background-image: url(../images/vision.jpg);
-        width: 100%;
-    }
-
-    .ourvison h3 {
-        color: white;
-    }
-
-    .ourvision p {
-        color: white;
-    }
-
-    .john {
-        background-color: #ffe6ac;
-        margin-bottom: 1em;
-    }
-
-    .bob {
-        background-color: #ffe6ac;
-        margin-bottom: 1em;
-    }
+.hours td {
+    padding: 10px;
+    border: 1px solid #222;
+    text-align: left;
+}
