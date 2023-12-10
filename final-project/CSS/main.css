@@ -18,14 +18,15 @@ Mobile Styles
     padding: 20px;
 }
 
+/************ Header *************/
 .main-head {
-    max-width: 1200px;
     margin: 0 auto;
     background-color: #222;
+    max-width: 1200px;
+    
 }
 
 .nav-list {
-    max-width: 1200px;
     text-align: center;
     font-size: larger;
 }
@@ -34,8 +35,12 @@ Mobile Styles
     margin: 50px;
 }
 
+.main-nav a {
+    text-decoration: none;
+    color: #c78c06;
+}
+
 .form {
-    max-width: 1200px;
     text-align: center;
     padding: 10px;
 }
@@ -44,26 +49,39 @@ h1, h2, h3, h4 {
     font-family: 'Open Sans', sans-serif;
 }
 
-
 form h1 {
     font-size: 3em;
 }
 
-.btn {
-    text-decoration: none;
-    display: inline-block;
-    padding: 1.5em;
+.form button {
+    color: #c78c06;
+    border-color: #c78c06;
     background-color: #222;
-    font-size: 1.5em;
-    color: white;
-    margin: 0.5em;
+    padding: 15px 20px;
+}
+
+.form input {
+    padding: 15px 20px;
+    width: 500px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    padding: 18px 28px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
 }
 
 .home {
-    max-width: 1200px;
     background-image: url(../images/main-banner.jpg);
     width: 100%;
-    padding: 1em;
+    background-repeat: no-repeat;
+    padding-bottom: 10em;
 }
 
 .home h1 {
@@ -71,7 +89,7 @@ form h1 {
     color: white;
     padding-top: 2em;
     padding-bottom: 0.5em;
-    padding-right: 0.3em;
+    padding-left: 0.1em;
 }
 
 .home p {
@@ -80,6 +98,7 @@ form h1 {
     font-size: 1em;
     margin-bottom: 1.5em;
     margin-right: 1.5em;
+    padding-left: 1em;
 }
 
 .digital h3,
@@ -109,10 +128,10 @@ form h1 {
 
 
 .about {
+    max-width: 1200px;
     background-color: #ffe6ac;
+    margin-bottom: 1em;
     margin: 0 auto;
-    padding: 20px;
-    
 }
 
 .aboutus h2 {
@@ -128,11 +147,11 @@ form h1 {
     font-size: 16px;
     color: #222;
     margin-left: 12px;
-    margin-bottom: 10px;
+    padding-bottom: 1em;
 }
 
 .about img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -146,33 +165,32 @@ form h1 {
 
 }
 .digital {
-    max-width: 1200px;
     background-color: #ffe6ac;
     margin-bottom: 1em;
 
 }
 
 .digital img {
-    max-width: 1200px;
     width: 100%;
 }
 
 .video {
-    max-width: 1200px;
     background-color: #ffe6ac;
     margin-bottom: 1em;
 }
 
 .web {
-    max-width: 1200px;
     background-color: #ffe6ac;
     margin-bottom: 1em;
 }
 
 .print {
-    max-width: 1200px;
     background-color: #ffe6ac;
     margin-bottom: 1em;
+    width: 100%;
+}
+
+.print img {
     width: 100%;
 }
 
@@ -233,14 +251,20 @@ form h1 {
     margin-right: 10px;
 }
 
+.john img {
+    width: 100%;
+}
+
+.bob img {
+    width: 100%;
+}
+
 .john {
-    max-width: 1200px;
     background-color: #ffe6ac;
     margin-bottom: 1em;
 }
 
 .bob {
-    max-width: 1200px;
     background-color: #ffe6ac;
     margin-bottom: 1em;
 }
