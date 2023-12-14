@@ -7,11 +7,6 @@ body {
 }
 
 
-/*************
-Hover/focus
-***************/
-
-
 /**********
 Mobile Styles
 ************/
@@ -142,7 +137,7 @@ p {
 }
 
 .digital h3,
-.marketing h3,
+.marketing-plans h3,
 .video h3,
 .web h3,
 .print h3 {
@@ -153,7 +148,7 @@ p {
 }
 
 .digital p,
-.marketing p,
+.marketing-plans p,
 .video p,
 .web p,
 .print p {
@@ -211,10 +206,17 @@ p {
 .digital {
     background-color: #ffe6ac;
     margin-bottom: 1em;
-
 }
 
 .digital img {
+    width: 100%;
+}
+
+.marketing-plans {
+    background-color: #ffe6ac;
+}
+
+.marketing-plans img {
     width: 100%;
 }
 
@@ -448,51 +450,103 @@ td {
 
 
     /*********Navigation*********/
-    .nav-list {
-        display: flex;
-        align-items: center;
-    }
 
-    .nav-list li {
-        padding: 1em;
-    }
 
-    .nav-list img {
-        margin-right: 1em;
-        margin-left: 1em;
-        padding-right: 1em;
-        padding-bottom: 1em;
-        margin-bottom: 1em;
-    }
 
     .main-head {
-        padding-top: 2em;
-    }
-
-
-    .form {
+        display: grid;
         padding: 10px;
-        align-items: center;
+      }
+      
+      .main-nav {
         display: flex;
+
+      }
+      
+      .nav-list {
+        display: flex;
+        margin-left: -23px;
+        margin-right: -23px;
+      }
+
+      nav ul li a {
+        display: flex;
+        margin-top: 2em;
+        margin-left: -23px;
+        margin-right: -23px;
+      }
+
+      nav ul li:nth-child(2) a {
+        color: #c78c06;
+        background-color: #222;
+        margin-left: -10em;
     }
 
-    .form input {
-        width: auto;
-
+    nav ul li:nth-child(3) a {
+        margin-left: -10em;
     }
 
-    .form button {
-        width: auto;
-
+    nav ul li:nth-child(4) a {
+        margin-left: -9em;
     }
 
-    .home h1 {
-        font-size: 8em;
-        padding-top: 4em;
+    nav ul li:nth-child(5) a {
+        margin-left: -8em;
     }
 
-    .homestar {
-        margin-bottom: 2em;
+    nav ul li:nth-child(6) a {
+        margin-left: -7em;
+    }
+
+      .nav-list img {
+        margin-top: 1.5em;
+        margin-bottom: -8em;
+        margin-left: 3em;
+        background-color: #222;
+      }
+
+      .star {
+        background-image: url(../images/main-banner.jpg);
+        width: 92%;
+        height: auto;
+        background-repeat: no-repeat;
+    }
+      
+      .form {
+        display: flex;
+        height: 5em;
+        width: 18em;
+        padding-top: 3em;
+        padding-left: 5em;
+        margin-right: 9.5em;
+      }
+      
+
+    
+    /********Our Services***********/
+
+    .ourservices1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+
+    .ourservices2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+    }
+
+    .video img {
+        width: 100%;
+    }
+
+    .web img {
+        width: 100%;
+    }
+
+    .print {
+        width: 100%;
     }
 
     /******TEAM********/
@@ -500,15 +554,15 @@ td {
     .team {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: left;
     }
 
     .john {
         display: flex;
         align-items: center;
         padding: 20px;
-    }
 
+    }
 
     .johninfo {
         flex: 1;
@@ -542,7 +596,7 @@ td {
         align-items: center;
         padding-left: 20px;
         padding-bottom: -8em;
-        padding-top: -6em;
+        padding-top: -7em;
     }
 
     .bobinfo {
@@ -578,12 +632,6 @@ td {
     .bobinfo p {
         padding-right: 4em;
     }
-
-
-
-
-
-
 
     /******Contact, hours, anmd location********/
     .grid-bottom {
